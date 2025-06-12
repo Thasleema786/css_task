@@ -1,0 +1,102 @@
+.container{
+    width:1100px;
+    height:500px;
+    border:2px solid;
+    display: flex;
+    
+}
+.sub1{
+    width:200px;
+    height:300px;
+    border:2px solid;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition:all 4s ease;
+    /* opacity: 0; */
+}
+.sub2{
+    width:200px;
+    height:300px;
+    border:2px solid;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition:all 4s ease;
+}
+.sub3{
+     width:200px;
+    height:300px;
+    border:2px solid;
+    margin-top: 100px;
+    margin-left: 90px;
+    transition:all 7s ease;
+}
+.sub4{
+     width:200px;
+    height:300px;
+    border:2px solid;
+    margin-top: 100px;
+    margin-left: 70px;
+    transition:all 6s ease;
+}
+img{
+    width:100%;
+   
+    opacity: 1;
+   
+}
+
+.sub1:hover{
+    background-color: black;
+}
+.sub1:hover>.img1{
+    opacity: 0;
+}
+p{
+
+    opacity: 0;
+}
+.sub1:hover>p{
+    opacity: 1;
+    color: aliceblue;
+}
+.sub2:hover{
+    background-color: brown;
+}
+.sub2:hover>.img2{
+    opacity: 0;
+}
+p{
+    opacity: 0;
+    margin-top: 0px;
+    
+}
+.sub2:hover>p{
+    opacity: 1;
+    color:blueviolet;
+}
+.sub3:hover{
+    background-color: blue;
+}
+.sub3:hover>.img3{
+    opacity: 0;
+}
+.sub3:hover>.parrot{
+    opacity:1;
+}
+.parrot{
+    opacity:0;
+    margin-top: 0px;
+    margin-left: 3px;
+}
+.sub4:hover{
+    background-color: aqua;
+}
+.sub4:hover>.img4{
+    opacity: 0;
+}
+.pigeon{
+    opacity:0;
+}
+.sub4:hover>.pigeon{
+    opacity:1;
+}
